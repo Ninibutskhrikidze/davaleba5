@@ -1,0 +1,201 @@
+/* header */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* font-family: "Nerko One", cursive; */
+header {
+  background-color: #2A9D8F;
+  margin: auto;
+  width: 1440px;
+  padding: 38px 130px;
+}
+
+.logo_header {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  vertical-align: middle;
+  margin-right: 689px;
+  /* დიზაინში იყო 701 პიქსელი მაგრამ ჩამოკლება მომიწია ფონტის ზომის გამო */
+}
+
+.logo_img {
+  width: 100%;
+  height: 100%;
+}
+
+.nav_header {
+  color: #FFFFFF;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.margin_li {
+  margin-inline: 80px;
+}
+
+li {
+  display: inline-block;
+}
+
+.margin_li,
+.li_text {
+  color: #FFFFFF;
+  font-family: "Nerko One", cursive;
+  font-size: 32px;
+  /* არ მუშაობს ამ font-ის  ზომაზე ქვემოთ აგდებს, ამიტომ მიწევს მარჯინის დაკლება მაშინ */
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  text-align: left;
+  display: inline-block;
+}
+
+/* section */
+.section_first {
+  width: 1440px;
+  margin: auto;
+  background-color: #C2F3EE;
+  padding: 80px 130px;
+}
+
+.photo {
+  width: 600px;
+  height: 560px;
+  margin-right: 107px;
+  /* აქაც არ ეტეოდა ფონტის გამო და 120 ის ნაცვლად 107 გამოვიდა 108 ზე უკვე აგდებდა */
+  vertical-align: middle;
+}
+
+.section_article {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text1 {
+
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #272727;
+  width: 469px;
+  /* background-color: beige; */
+}
+
+.p_text1 {
+  width: 457px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  color: #272727;
+  margin: 27px 0px 45px;
+}
+
+button {
+  background-color: #2A9D8F;
+  border: none;
+  width: 113px;
+  height: 46px;
+}
+
+.button_text {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+/* article */
+.article_text {
+  margin: 120px auto;
+  width: 780px;
+  height: 452px;
+}
+
+.text2 {
+  color: #06686E;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.005em;
+  text-align: center;
+}
+
+.p_text2 {
+  color: #06686E;
+  font-family: "Nerko One", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.005em;
+  text-align: justify;
+  margin-top: 80px;
+}
+
+/* footer */
+footer {
+  background-color: #2A9D8F;
+  margin: auto;
+  width: 1440px;
+  padding: 88px 130px;
+}
+
+.logo_footer {
+  vertical-align: middle;
+  display: inline-block;
+  width: 98px;
+  height: 98px;
+  top: 88px;
+  /* border: 3px solid #FFFFFF; დიზაინში ეწერა და ვერ მივცვდი ის მრგვალი იყო ?*/
+}
+
+.logo_2 {
+  width: 100%;
+  height: 100%;
+}
+
+.section_footer {
+  margin-left: 934px;
+  width: 148px;
+  vertical-align: middle;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  width: 111px;
+  margin-bottom: 24px;
+}
+
+.link_footer,
+.link_footer_centre {
+  width: 148px;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+}
+
+.link_footer_centre {
+  margin-block: 8px;
+}
+
+.footer_list {
+  display: block;
+}
